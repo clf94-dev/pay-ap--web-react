@@ -5,12 +5,13 @@ import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Pricing from './pages/Pricing'
+import Navbar from './Navbar'
 
 function App() {
     return (
         <div>
             <Router>
-
+<Navbar/>
                 <Switch>
 
                     <Route path='/' exact component={Home}></Route>
