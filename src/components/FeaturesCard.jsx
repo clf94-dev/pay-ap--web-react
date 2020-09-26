@@ -8,7 +8,7 @@ import CustomerD from './images/assets/home/desktop/icon-consumer-payments.svg'
 function FeaturesCard(props) {
     const FeaturesImgD = [PersonalD, BankingD, CustomerD];
     return (
-        <Grid container direction='column'>
+        <Grid item sm={4} xs={12}>
             <img src={FeaturesImgD[props.index]} alt={props.alt}/>
             <h3>{props.title}</h3>
             <p>{props.text}</p>

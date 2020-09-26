@@ -7,6 +7,8 @@ import About from './pages/About'
 import Pricing from './pages/Pricing'
 import Navbar from './Navbar'
 import TopHome from './TopHome'
+import Cta from './Cta'
+import Footer from './Footer'
 
 function App() {
     return (
@@ -22,6 +24,8 @@ function App() {
                     <Route path='/contact' component={Contact}></Route>
 
                 </Switch>
+                <Cta/>
+                <Footer/>
             </Router>
         </div>
     )
