@@ -1,10 +1,24 @@
 import React from 'react'
+import PrincipleCard from '../PrincipleCard'
+import {PrinciplesInfo1, PrinciplesInfo2} from '../PrinciplesInfo1'
 import TopAbout from '../TopAbout'
 
 function About() {
     return (
         <div>
-            <TopAbout/>
+            <TopAbout/> {PrinciplesInfo1.map((principle1) => {
+                return (<PrincipleCard
+                    key={principle1.index}
+                    title={principle1.title}
+                    text={principle1.text}/>)
+            })}
+
+            {PrinciplesInfo2.map((principle1) => {
+                return (<PrincipleCard
+                    key={principle1.index}
+                    title={principle1.title}
+                    text={principle1.text}/>)
+            })}
         </div>
     )
 }
