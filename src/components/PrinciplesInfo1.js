@@ -20,3 +20,20 @@ export const PrinciplesInfo2 = [{
         text: "We're all passionate about building a more efficient and inclusive financial infrastructure together. At PayAPI, we have diverse backgrounds and skills."
     }
 ];
+
+export const StatisticsInfo = [{
+        index: 0,
+        title: 'Team Members',
+        text: '300+'
+    },
+    {
+        index: 1,
+        title: 'Offices in the US',
+        text: 3
+    },
+    {
+        index: 2,
+        title: 'Transactions analyzed',
+        text: '10M+'
+    }
+]
