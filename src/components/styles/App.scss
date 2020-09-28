@@ -163,3 +163,49 @@ body {
         }
     }
 }
+
+//----------------TopHome component------------
+.top-home-cont {
+    padding: 2% 10% 5%;
+    .text-col {
+        padding-top: 10%;
+        h1 {
+            font-family: $public-sans;
+            font-size: $h1-big;
+            color: $san-juan-blue;
+            font-weight: $light;
+            letter-spacing: -0.1rem;
+            margin-bottom: 50px;
+        }
+        input {
+            box-shadow: 15px 15px 18px 5px rgba(0, 0, 0, .1);
+            height: 50px;
+            width: 120%;
+            border-radius: 25px;
+            border: 1px solid $link-water-white;
+            padding-left: 20px;
+            &::placeholder {
+                color: $light-san-juan-blue;
+            }
+        }
+        .pink-btn {
+            height: 50px;
+            width: 150px;
+            box-shadow: 5px 10px 12px 1px rgba(0, 0, 0, .1);
+            border-radius: 25px;
+            cursor: pointer;
+            border: 1px solid $dark-red;
+            background-color: $dark-red;
+            color: $link-water-white;
+            &:hover {
+                transition: all 0.2s ease-out;
+                border-color: $charm-pink;
+                background-color: $charm-pink;
+            }
+        }
+    }
+    .img-col {
+        justify-content: center;
+        text-align: center;
+    }
+}
