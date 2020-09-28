@@ -1,0 +1,112 @@
+$dark-red: rgb(186, 66, 112);
+$link-water-white: rgb(251, 252, 254);
+$san-juan-blue: rgb(54, 83, 107);
+$mirage-blue: rgb(27, 38, 47);
+$charm-pink: rgb(218, 109, 151);
+$light-san-juan-blue: rgb(108, 130, 148);
+//---------------font sizes-----------
+$h1-big: 72px;
+$h1-small: 56px;
+$h2-size: 48px;
+$h3-big: 32px;
+$h3-small: 20px;
+$h4-size:25px;
+//--------------font families-----------
+$DM-serif: 'DM Serif Display',
+serif;
+$public-sans: 'Public Sans',
+sans-serif;
+//--------------font weights-------------
+$regular:400;
+$light:300;
+//
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+//-------------------Navbar Component --------------
+.navbar {
+    height: 80px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    .navbar-cont {
+        display: flex;
+        justify-content: start;
+        height: 80px;
+        max-width: 1700px;
+        .navbar-logo {
+            text-align: start !important;
+            margin-left: 10vw;
+            margin-top: 20px;
+            cursor: pointer;
+            align-items: center;
+            img {
+                align-self: start !important;
+                height: 40px;
+            }
+        }
+        .menu-icon {
+            display: none;
+            .fa-bars,
+            .fa-times {
+                color: $mirage-blue;
+            }
+        }
+        .nav-menu {
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 35px;
+            list-style: none;
+            text-align: center;
+            justify-content: start;
+            margin-left: 80px;
+            align-items: center;
+            .nav-links {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                color: $light-san-juan-blue;
+                font-family: $public-sans;
+                &:hover {
+                    transition: all 0.2s ease-out;
+                    color: $mirage-blue;
+                }
+                &-mobile {
+                    display: none;
+                }
+                .nav-item {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .pink-btn {
+            @media screen and (min-width: 756px) {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+            }
+            height: 50px;
+            width: 150px;
+            border-radius: 25px;
+            cursor: pointer;
+            border:1px solid $dark-red;
+            background-color: $dark-red;
+            color:$link-water-white;
+            &:hover {
+                transition: all 0.2s ease-out;
+                border-color: $charm-pink;
+                background-color: $charm-pink;
+            }
+        }
+    }
+}

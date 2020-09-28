@@ -3,6 +3,8 @@ import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import Logo from './images/assets/shared/desktop/logo.svg'
 
+import './styles/App.css'
+
 function Navbar() {
     const [click, setClick] = useState(false);
 
@@ -23,7 +25,7 @@ const closeMobileMenu = () => setClick(false);
                     <li className="nav-item"><Link to='/about' className='nav-links' onclick={closeMobileMenu}>About</Link></li>
                     <li className="nav-item"><Link to='/contact' className='nav-links' onclick={closeMobileMenu}>Contact</Link></li>
                 </ul>
-                <button>Schedule a Demo</button>
+                <button className='pink-btn'>Schedule a Demo</button>
             </div>
             
         </nav>
