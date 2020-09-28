@@ -24,9 +24,10 @@ const closeMobileMenu = () => setClick(false);
                     <li className="nav-item"><Link to='/pricing' className='nav-links' onclick={closeMobileMenu}>Pricing</Link></li>
                     <li className="nav-item"><Link to='/about' className='nav-links' onclick={closeMobileMenu}>About</Link></li>
                     <li className="nav-item"><Link to='/contact' className='nav-links' onclick={closeMobileMenu}>Contact</Link></li>
+                    <button className='pink-btn'>Schedule a Demo</button>
+         
                 </ul>
-                <button className='pink-btn'>Schedule a Demo</button>
-            </div>
+                 </div>
             
         </nav>
     )
