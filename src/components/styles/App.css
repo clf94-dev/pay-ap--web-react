@@ -534,3 +534,15 @@ body {
   transition: all 0.3s ease;
   color: #da6d97;
 }
+
+.top-about-cont {
+  padding: 5% 17%;
+}
+
+.top-about-cont h1 {
+  font-size: 56px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  color: #1b262f;
+  padding-right: 25%;
+}

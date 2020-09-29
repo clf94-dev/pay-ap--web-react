@@ -462,3 +462,15 @@
             }
         }
     }
+    
+    //------------------TopAbout component --------------
+    .top-about-cont {
+        padding: 5% 17%;
+        h1 {
+            font-size: $h1-small;
+            font-family: $public-sans;
+            font-weight: $light;
+            color: $mirage-blue;
+            padding-right: 25%;
+        }
+    }
