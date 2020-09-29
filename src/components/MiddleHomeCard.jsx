@@ -8,12 +8,12 @@ function MiddleHomeCard(props) {
     const MiddleImgD = [TerminalD, SimpleUID];
 
     return (
-        <Grid container direction='row'>
-            <Grid item lg={6} md={12}>
+        <Grid container direction='row'  className={props.classes}>
+            <Grid item lg={6} md={12} className='text-col'>
                 <h2>{props.title}</h2>
                 <p>{props.text}</p>
             </Grid>
-            <Grid item lg={6} md={12}>
+            <Grid item lg={6} md={12} className='img-col'>
                 <img src={MiddleImgD[props.index]} alt={props.alt}/>
             </Grid>
         </Grid>

@@ -294,3 +294,44 @@
             }
         }
     }
+    
+    //--------------------MiddleHome component -------------
+    .middle-cont {
+        padding: 5% 10%;
+        .card-row {
+            &.reverse {
+                @media screen and ( min-width: 755px) {
+                    flex-direction: row-reverse;
+                }
+            }
+            @media screen and (max-width: 756px) {
+                flex-direction: column-reverse;
+            }
+            .text-col {
+                @media screen and (min-width: 755px) {
+                    margin: auto 0;
+                }
+                h2 {
+                    font-size: $h2-size;
+                    font-family: $public-sans;
+                    margin-bottom: 20px;
+                }
+                p {
+                    @media screen and (min-width: 755px) {
+                        padding-right: 23%;
+                    }
+                    font-size: 15px;
+                    line-height: 1.5rem;
+                    font-family: $public-sans;
+                    margin-bottom: 30px;
+                }
+            }
+            .img-col {
+                justify-content: center;
+                text-align: center !important;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }

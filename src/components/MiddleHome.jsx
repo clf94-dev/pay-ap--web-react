@@ -3,12 +3,14 @@ import React from 'react'
 import MiddleHomeCard from './MiddleHomeCard'
 import { MiddleHomeInfo } from './MiddleHomeInfo'
 
+
+import './styles/App.css'
 function MiddleHome() {
     return (
-        <Grid container direction='row' >
+        <Grid container direction='row' className='middle-cont' >
             {MiddleHomeInfo.map((info) => {
                 return (
-                    <MiddleHomeCard title={info.title} key={info.index} index={info.index} text={info.text}  alt={info.imgALT} />             )
+                    <MiddleHomeCard classes={info.classes} title={info.title} key={info.index} index={info.index} text={info.text}  alt={info.imgALT} />             )
             })}
         </Grid>
     )
