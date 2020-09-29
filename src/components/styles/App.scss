@@ -366,7 +366,7 @@
     //---------------------Cta component -------------------
     .cta-cont {
         padding: 5% 10%;
-        @media screen and (max-width: 756px) {
+        @media screen and (max-width: 1080px) {
             text-align: center;
         }
         .text-col {
@@ -381,8 +381,8 @@
             input {
                 box-shadow: 15px 15px 18px 5px rgba(0, 0, 0, .1);
                 height: 50px;
-                @media screen and (min-width: 755px) {
-                    width: 120% !important;
+                @media screen and (min-width: 600px) {
+                    width: 150% !important;
                 }
                 width: 80%;
                 border-radius: 25px;

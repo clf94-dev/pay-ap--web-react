@@ -416,7 +416,7 @@ body {
   padding: 5% 10%;
 }
 
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 1080px) {
   .cta-cont {
     text-align: center;
   }
@@ -439,9 +439,9 @@ body {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 755px) {
+@media screen and (min-width: 600px) {
   .cta-cont .input-col input {
-    width: 120% !important;
+    width: 150% !important;
   }
 }
 
