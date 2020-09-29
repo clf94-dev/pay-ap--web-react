@@ -335,3 +335,30 @@
             }
         }
     }
+    
+    //----------------FeaturesHome component ----------------------
+    .features-cont {
+        padding: 5% 10%;
+        .feat-card {
+            text-align: center;
+            img {
+                width: 130px;
+                margin-bottom: 30px;
+            }
+            h3 {
+                font-size: $h3-small;
+                font-family: $public-sans;
+                font-weight: $light;
+                margin-bottom: 15px;
+            }
+            p {
+                padding: 0 3%;
+                font-size: 15px;
+                font-weight: $light;
+                line-height: 1.5rem;
+                font-family: $public-sans;
+                color: $light-san-juan-blue;
+                margin-bottom: 45px;
+            }
+        }
+    }

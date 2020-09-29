@@ -381,3 +381,33 @@ body {
 .middle-cont .card-row .img-col img {
   width: 100%;
 }
+
+.features-cont {
+  padding: 5% 10%;
+}
+
+.features-cont .feat-card {
+  text-align: center;
+}
+
+.features-cont .feat-card img {
+  width: 130px;
+  margin-bottom: 30px;
+}
+
+.features-cont .feat-card h3 {
+  font-size: 20px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.features-cont .feat-card p {
+  padding: 0 3%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-family: "Public Sans", sans-serif;
+  color: #6c8294;
+  margin-bottom: 45px;
+}
