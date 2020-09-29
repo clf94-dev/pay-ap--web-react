@@ -193,7 +193,7 @@
                 box-shadow: 15px 15px 18px 5px rgba(0, 0, 0, .1);
                 height: 50px;
                 @media screen and (min-width: 755px) {
-                    width: 120% !important;
+                    width: 150% !important;
                 }
                 width: 80%;
                 border-radius: 25px;
@@ -359,6 +359,58 @@
                 font-family: $public-sans;
                 color: $light-san-juan-blue;
                 margin-bottom: 45px;
+            }
+        }
+    }
+    
+    //---------------------Cta component -------------------
+    .cta-cont {
+        padding: 5% 10%;
+        @media screen and (max-width: 756px) {
+            text-align: center;
+        }
+        .text-col {
+            h2 {
+                font-size: $h2-size;
+                color: $mirage-blue;
+                font-family: $public-sans;
+                margin-bottom: 25px;
+            }
+        }
+        .input-col {
+            input {
+                box-shadow: 15px 15px 18px 5px rgba(0, 0, 0, .1);
+                height: 50px;
+                @media screen and (min-width: 755px) {
+                    width: 120% !important;
+                }
+                width: 80%;
+                border-radius: 25px;
+                border: 1px solid $link-water-white;
+                padding-left: 20px;
+                margin-bottom: 15px;
+                &::placeholder {
+                    color: $light-san-juan-blue;
+                }
+            }
+            .pink-btn {
+                height: 50px;
+                @media screen and (min-width: 755px) {
+                    width: 150px;
+                }
+                width: 80%;
+                box-shadow: 5px 10px 12px 1px rgba(0, 0, 0, .1);
+                border-radius: 25px;
+                cursor: pointer;
+                border: 1px solid $dark-red;
+                background-color: $dark-red;
+                color: $link-water-white;
+                margin-bottom: 40px;
+                &:hover {
+                    transition: all 0.2s ease-out;
+                    border-color: $charm-pink;
+                    background-color: $charm-pink;
+                }
             }
         }
     }

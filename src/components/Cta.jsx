@@ -3,17 +3,17 @@ import React from 'react'
 
 function Cta() {
     return (
-        <Grid container direction='row'>
-            <Grid item md={6} xs={12}>
+        <Grid container direction='row' className='cta-cont' >
+            <Grid item md={6} xs={12} className='text-col'>
                 <h2>Ready to start?</h2>
             </Grid>
-            <Grid item md={6} xs={12}>
+            <Grid item md={6} xs={12} className='input-col'>
                 <Grid container direction='row'>
                     <Grid item sm={6} xs={12}>
-                        <input type="text"/>
+                        <input placeholder='Enter email address ...'type="text"/>
                     </Grid>
                     <Grid item sm={6} xs={12}>
-                        <button>Schedule a Demo</button>
+                        <button className='pink-btn'>Schedule a Demo</button>
                     </Grid>
                 </Grid>
             </Grid>
