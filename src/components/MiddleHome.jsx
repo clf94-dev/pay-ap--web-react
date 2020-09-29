@@ -5,7 +5,7 @@ import { MiddleHomeInfo } from './MiddleHomeInfo'
 
 function MiddleHome() {
     return (
-        <Grid container direction='row'>
+        <Grid container direction='row' >
             {MiddleHomeInfo.map((info) => {
                 return (
                     <MiddleHomeCard title={info.title} key={info.index} index={info.index} text={info.text}  alt={info.imgALT} />             )
@@ -14,4 +14,4 @@ function MiddleHome() {
     )
 }
 
-export default MiddleHome
+export default MiddleHome;
