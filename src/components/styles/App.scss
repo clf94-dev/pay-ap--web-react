@@ -474,3 +474,23 @@
             padding-right: 25%;
         }
     }
+    
+    //-------------------Principles component------------
+    .principles-cont {
+        padding: 2% 17% 1%;
+        h4 {
+            margin-top: 10px;
+            font-size: $h4-size;
+            font-family: $public-sans;
+            color: $mirage-blue;
+            font-weight: $light;
+        }
+        p {
+            font-size: 15px;
+            font-weight: $light;
+            line-height: 1.5rem;
+            font-family: $public-sans;
+            color: $light-san-juan-blue;
+            margin-bottom: 45px;
+        }
+    }
