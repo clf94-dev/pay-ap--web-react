@@ -566,7 +566,25 @@ body {
 }
 
 .principles-cont {
-  padding: 2% 17% 1%;
+  padding: 2% 5% 1%;
+}
+
+@media screen and (min-width: 755px) {
+  .principles-cont {
+    padding: 2% 7% 1%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .principles-cont {
+    padding: 2% 17% 1%;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .principles-cont {
+    text-align: center;
+  }
 }
 
 .principles-cont h4 {

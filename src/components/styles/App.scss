@@ -486,7 +486,16 @@
     
     //-------------------Principles component------------
     .principles-cont {
-        padding: 2% 17% 1%;
+        @media screen and (min-width: 755px) {
+            padding: 2% 7% 1%;
+        }
+        @media screen and (min-width: 1080px) {
+            padding: 2% 17% 1%;
+        }
+        padding: 2% 5% 1%;
+        @media screen and (max-width:756px) {
+            text-align: center;
+        }
         h4 {
             margin-top: 10px;
             font-size: $h4-size;
