@@ -536,7 +536,13 @@ body {
 }
 
 .top-about-cont {
-  padding: 5% 17%;
+  padding: 5% 7%;
+}
+
+@media screen and (min-width: 1080px) {
+  .top-about-cont {
+    padding: 5% 17%;
+  }
 }
 
 .top-about-cont h1 {
@@ -544,7 +550,19 @@ body {
   font-family: "Public Sans", sans-serif;
   font-weight: 300;
   color: #1b262f;
-  padding-right: 25%;
+}
+
+@media screen and (min-width: 1080px) {
+  .top-about-cont h1 {
+    padding-right: 25%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .top-about-cont h1 {
+    text-align: center;
+    font-size: 35px;
+  }
 }
 
 .principles-cont {

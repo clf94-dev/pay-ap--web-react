@@ -465,13 +465,22 @@
     
     //------------------TopAbout component --------------
     .top-about-cont {
-        padding: 5% 17%;
+        @media screen and (min-width: 1080px) {
+            padding: 5% 17%;
+        }
+        padding: 5% 7%;
         h1 {
             font-size: $h1-small;
             font-family: $public-sans;
             font-weight: $light;
             color: $mirage-blue;
-            padding-right: 25%;
+            @media screen and (min-width: 1080px) {
+                padding-right: 25%;
+            }
+            @media screen and (max-width: 1080px) {
+                text-align: center;
+                font-size: 35px;
+            }
         }
     }
     
