@@ -209,3 +209,63 @@ body {
         text-align: center;
     }
 }
+
+//-------------Companies home component ----------------
+.companies-cont {
+    padding: 5% 10%;
+    background-color: $mirage-blue;
+    @media screen and (max-width: 756px) {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .text-col {
+        color: $link-water-white;
+        h2 {
+            font-size: $h2-size;
+            font-family: $public-sans;
+            margin-bottom: 15px;
+        }
+        p {
+            @media screen and (min-width: 755px) {
+                padding-right: 23%;
+            }
+            font-size: 15px;
+            line-height: 1.5rem;
+            font-family: $public-sans;
+            margin-bottom: 30px;
+        }
+        .dark-btn {
+            height: 50px;
+            width: 150px;
+            border-radius: 25px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            border: 1px solid $link-water-white;
+            background-color: transparent;
+            color: $link-water-white;
+            &:hover {
+                transition: all 0.2s ease-out;
+                background-color: $link-water-white;
+                color: $mirage-blue;
+            }
+        }
+    }
+    .comp-col {
+        justify-content: center;
+        align-items: center;
+        .comp-row {
+            align-items: center !important;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            .company-logo {
+                margin: 20px auto 10px !important;
+                filter: brightness(0) invert(1);
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.05) !important;
+                }
+            }
+        }
+    }
+}

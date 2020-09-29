@@ -216,3 +216,77 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.companies-cont {
+  padding: 5% 10%;
+  background-color: #1b262f;
+}
+
+@media screen and (max-width: 756px) {
+  .companies-cont {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+}
+
+.companies-cont .text-col {
+  color: #fbfcfe;
+}
+
+.companies-cont .text-col h2 {
+  font-size: 48px;
+  font-family: "Public Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.companies-cont .text-col p {
+  font-size: 15px;
+  line-height: 1.5rem;
+  font-family: "Public Sans", sans-serif;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 755px) {
+  .companies-cont .text-col p {
+    padding-right: 23%;
+  }
+}
+
+.companies-cont .text-col .dark-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 1px solid #fbfcfe;
+  background-color: transparent;
+  color: #fbfcfe;
+}
+
+.companies-cont .text-col .dark-btn:hover {
+  transition: all 0.2s ease-out;
+  background-color: #fbfcfe;
+  color: #1b262f;
+}
+
+.companies-cont .comp-col {
+  justify-content: center;
+  align-items: center;
+}
+
+.companies-cont .comp-col .comp-row {
+  align-items: center !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.companies-cont .comp-col .comp-row .company-logo {
+  margin: 20px auto 10px !important;
+  filter: brightness(0) invert(1);
+}
+
+.companies-cont .comp-col .comp-row .company-logo:hover {
+  cursor: pointer;
+  transform: scale(1.05) !important;
+}

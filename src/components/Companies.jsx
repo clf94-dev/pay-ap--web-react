@@ -19,34 +19,34 @@ function Companies() {
         NvidiaD
     ];
     return (
-        <Grid container direction='row'>
-            <Grid item lg={6} md={12}>
+        <Grid container direction='row' className='companies-cont'>
+            <Grid item lg={6} md={12} className='text-col'>
                 <h2>Who we work with</h2>
                 <p>Today, millions of people around the world have successfully connected their
                     accounts to apps they love using our API. We provide developers with the tools
                     they need to create easy and accessible experiences for their users.
                 </p>
-                <button>About Us</button>
+                <button className='dark-btn'>About Us</button>
             </Grid>
-            <Grid item lg={6} md={12}>
-                <Grid container direction='row'>
+            <Grid item lg={6} md={12} className='comp-col'>
+                <Grid container direction='row' className='comp-row'>
                     <Grid item sm={4} xs={6}>
-                        <img src={TeslaD} alt="Tesla"/>
+                        <img src={TeslaD} className='company-logo' alt="Tesla"/>
                     </Grid>
                     <Grid item sm={4} xs={6}>
-                        <img src={MicrosoftD} alt="Microsoft"/>
+                        <img src={MicrosoftD} className='company-logo' alt="Microsoft"/>
                     </Grid>
                     <Grid item sm={4} xs={6}>
-                        <img src={PackardD} alt="Hewlett Packard"/>
+                        <img src={PackardD} className='company-logo' alt="Hewlett Packard"/>
                      </Grid>
                     <Grid item sm={4} xs={6}>
-                        <img src={OracleD} alt="Oracle"/>
+                        <img src={OracleD} className='company-logo' alt="Oracle"/>
                     </Grid>
                     <Grid item sm={4} xs={6}>
-                        <img src={GoogleD} alt="Google"/>
+                        <img src={GoogleD} className='company-logo' alt="Google"/>
                     </Grid>
                     <Grid item sm={4} xs={6}>
-                        <img src={NvidiaD} alt="NVidia"/>
+                        <img src={NvidiaD} className='company-logo' alt="NVidia"/>
                     </Grid>
                 </Grid>
             </Grid>
