@@ -612,13 +612,38 @@ body {
   padding: 5% 5%;
 }
 
-.statistics-cont .statistics-row hr {
+@media screen and (max-width: 755px) {
+  .statistics-cont .statistics-row {
+    text-align: center;
+  }
+}
+
+.statistics-cont .statistics-row .block-div {
+  border: none;
+  border: 1px solid lightgray;
+  width: 95%;
+  display: none;
+}
+
+@media screen and (max-width: 755px) {
+  .statistics-cont .statistics-row .block-div {
+    display: block;
+  }
+}
+
+.statistics-cont .statistics-row .card-col hr {
   border: none;
   border: 1px solid lightgray;
   width: 95%;
 }
 
-.statistics-cont .statistics-row h3 {
+@media screen and (max-width: 755px) {
+  .statistics-cont .statistics-row .card-col hr {
+    display: none;
+  }
+}
+
+.statistics-cont .statistics-row .card-col h3 {
   margin-top: 15px;
   font-size: 15px;
   font-weight: 300;
@@ -626,7 +651,7 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
-.statistics-cont .statistics-row h1 {
+.statistics-cont .statistics-row .card-col h1 {
   padding: 10px 0;
   font-size: 45px;
   color: #da6d97;

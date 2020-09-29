@@ -12,9 +12,11 @@ function StatisticsAbout() {
          <img src={StudyD} alt="Study team members"/>
 
          <Grid container direction='row' className='statistics-row'>
+           <hr className='block-div'/>
              {StatisticsInfo.map((info) => {
                  return ( <StatisticCard key={info.index} title={info.title} text={info.text} />)
              })}
+             <hr className='block-div'/>
          </Grid>
      </Grid>
     )

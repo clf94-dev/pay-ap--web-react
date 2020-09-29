@@ -520,24 +520,41 @@
         }
         .statistics-row {
             padding: 5% 5%;
-            hr {
+            @media screen and (max-width: 755px) {
+                text-align: center;
+            }
+            .block-div {
                 border: none;
                 border: 1px solid lightgray;
                 width: 95%;
+                @media screen and (max-width: 755px) {
+                    display: block;
+                }
+                display: none;
             }
-            h3 {
-                margin-top: 15px;
-                font-size: 15px;
-                font-weight: $light;
-                color: $san-juan-blue;
-                font-family: $public-sans;
-            }
-            h1 {
-                padding: 10px 0;
-                font-size: 45px;
-                color: $charm-pink;
-                font-weight: $light;
-                font-family: $public-sans;
+            .card-col {
+                hr {
+                    border: none;
+                    border: 1px solid lightgray;
+                    width: 95%;
+                    @media screen and (max-width: 755px) {
+                        display: none;
+                    }
+                }
+                h3 {
+                    margin-top: 15px;
+                    font-size: 15px;
+                    font-weight: $light;
+                    color: $san-juan-blue;
+                    font-family: $public-sans;
+                }
+                h1 {
+                    padding: 10px 0;
+                    font-size: 45px;
+                    color: $charm-pink;
+                    font-weight: $light;
+                    font-family: $public-sans;
+                }
             }
         }
     }
