@@ -165,12 +165,27 @@ body {
   background-color: #da6d97;
 }
 
-.top-home-cont {
-  padding: 2% 10% 5%;
+@media screen and (min-width: 755px) {
+  .top-home-cont {
+    padding: 2% 10% 5%;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .top-home-cont {
+    flex-direction: column-reverse;
+  }
 }
 
 .top-home-cont .text-col {
-  padding-top: 10%;
+  text-align: center !important;
+}
+
+@media screen and (min-width: 755px) {
+  .top-home-cont .text-col {
+    padding-top: 10%;
+    text-align: start;
+  }
 }
 
 .top-home-cont .text-col h1 {
@@ -182,13 +197,26 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 756px) {
+  .top-home-cont .text-col h1 {
+    font-size: 56px;
+  }
+}
+
 .top-home-cont .text-col input {
   box-shadow: 15px 15px 18px 5px rgba(0, 0, 0, 0.1);
   height: 50px;
-  width: 120%;
+  width: 80%;
   border-radius: 25px;
   border: 1px solid #fbfcfe;
   padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 755px) {
+  .top-home-cont .text-col input {
+    width: 120% !important;
+  }
 }
 
 .top-home-cont .text-col input::placeholder {
@@ -197,13 +225,20 @@ body {
 
 .top-home-cont .text-col .pink-btn {
   height: 50px;
-  width: 150px;
+  width: 80%;
   box-shadow: 5px 10px 12px 1px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   cursor: pointer;
   border: 1px solid #ba4270;
   background-color: #ba4270;
   color: #fbfcfe;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 755px) {
+  .top-home-cont .text-col .pink-btn {
+    width: 150px;
+  }
 }
 
 .top-home-cont .text-col .pink-btn:hover {
@@ -213,8 +248,14 @@ body {
 }
 
 .top-home-cont .img-col {
-  justify-content: center;
-  text-align: center;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+@media screen and (max-width: 756px) {
+  .top-home-cont .img-col img {
+    padding-left: 9%;
+  }
 }
 
 .companies-cont {
