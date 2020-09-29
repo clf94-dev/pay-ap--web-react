@@ -603,3 +603,33 @@ body {
   color: #6c8294;
   margin-bottom: 45px;
 }
+
+.statistics-cont img {
+  width: 100%;
+}
+
+.statistics-cont .statistics-row {
+  padding: 5% 5%;
+}
+
+.statistics-cont .statistics-row hr {
+  border: none;
+  border: 1px solid lightgray;
+  width: 95%;
+}
+
+.statistics-cont .statistics-row h3 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+}
+
+.statistics-cont .statistics-row h1 {
+  padding: 10px 0;
+  font-size: 45px;
+  color: #da6d97;
+  font-weight: 300;
+  font-family: "Public Sans", sans-serif;
+}

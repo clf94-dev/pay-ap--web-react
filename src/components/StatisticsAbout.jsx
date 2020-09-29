@@ -5,13 +5,13 @@ import StudyD from './images/assets/about/desktop/image-team-members.jpg'
 import { StatisticsInfo } from './PrinciplesInfo1'
 import StatisticCard from './StatisticCard'
 
-
+import './styles/App.css'
 function StatisticsAbout() {
     return (
-     <Grid container direction='column' >
+     <Grid container direction='column' className='statistics-cont' >
          <img src={StudyD} alt="Study team members"/>
 
-         <Grid container direction='row'>
+         <Grid container direction='row' className='statistics-row'>
              {StatisticsInfo.map((info) => {
                  return ( <StatisticCard key={info.index} title={info.title} text={info.text} />)
              })}
