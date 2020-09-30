@@ -45,8 +45,7 @@ function Form() {
                     className={errors.name
                     ? "error input"
                     : " input"}
-                    data-aos='fade-left'
-                    data-aos-delay='200'/>
+                  />
                 <input
                     type="email"
                     name='email'
@@ -65,22 +64,19 @@ function Form() {
                     className={errors.email
                     ? "error input"
                     : " input"}
-                    data-aos='fade-left'
-                    data-aos-delay='400'/>
+                  />
                 <input
                     type="text"
                     name='Company'
                     placeholder='Company'
                     className=" input"
-                    data-aos='fade-left'
-                    data-aos-delay='600'/>
+                  />
                 <input
                     type="text"
                     name='Title'
                     placeholder='Title'
                     className=" input"
-                    data-aos='fade-left'
-                    data-aos-delay='800'/>
+                  />
                 <textarea
                     type="text"
                     name="message"
@@ -99,8 +95,7 @@ function Form() {
                         borderBottomColor: "black"
                     }}
                     ref={register({required: true})}
-                    data-aos='fade-left'
-                    data-aos-delay='1000'/>
+                   />
                 <FormControlLabel
                     control={< Checkbox required checked = {
                     update
@@ -112,7 +107,7 @@ function Form() {
                     label="Stay up-to-date with company announcements and updates to our API"/>
            
             </form>
-            <Button type="submit" onClick={handleSubmit(onSubmit)} className='submit-btn' data-aos='fade-up'  data-aos-delay='800'>
+            <Button type="submit" onClick={handleSubmit(onSubmit)} className='submit-btn' >
                     Submit </Button>
 
 
