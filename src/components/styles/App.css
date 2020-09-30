@@ -665,7 +665,7 @@ body {
 
 @media screen and (min-width: 1080px) {
   .top-contact-cont {
-    padding: 5% 17%;
+    padding: 5% 10%;
   }
 }
 
@@ -687,4 +687,41 @@ body {
     text-align: center;
     font-size: 35px;
   }
+}
+
+.contact-cont {
+  padding: 2% 10%;
+}
+
+.contact-cont .contact-comp-cont h3 {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+}
+
+@media screen and (min-width: 1080px) {
+  .contact-cont .contact-comp-cont h3 {
+    text-align: start;
+    padding-right: 15%;
+  }
+}
+
+.contact-cont .contact-comp-cont .contact-comp-row {
+  align-items: center !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.contact-cont .contact-comp-cont .contact-comp-row .company-logo {
+  margin: 20px 0 10px !important;
+}
+
+.contact-cont .contact-comp-cont .contact-comp-row .company-logo:hover {
+  cursor: pointer;
+  transform: scale(1.05) !important;
 }
