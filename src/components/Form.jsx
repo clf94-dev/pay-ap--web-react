@@ -33,7 +33,7 @@ function Form() {
                     type="text"
                     name='name'
                     placeholder={errors.name
-                    ? 'Name This is required'
+                    ? ' This is required'
                     : 'Name'}
                     style={errors.name
                     ? {
@@ -53,7 +53,7 @@ function Form() {
                     type="email"
                     name='email'
                     placeholder={errors.name
-                    ? 'Email Enter a valid email address'
+                    ? 'Enter a valid email address'
                     : 'Email'}
                     style={errors.email
                     ? {
@@ -87,7 +87,7 @@ function Form() {
                     ? "error message"
                     : " message"}
                     placeholder={errors.message
-                    ? 'Your message.... This is required'
+                    ? 'This is required'
                     : 'Your message....'}
                     style={errors.message
                     ? {
