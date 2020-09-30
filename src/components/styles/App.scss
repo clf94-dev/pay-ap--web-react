@@ -99,7 +99,7 @@
                     transition: all 0.5s ease;
                     &.active {
                         background-color: $mirage-blue;
-                        left: 0;
+                        left: 2%;
                         opacity: 1;
                         transition: all 0.5s ease;
                         z-index: 1;
@@ -555,6 +555,27 @@
                     font-weight: $light;
                     font-family: $public-sans;
                 }
+            }
+        }
+    }
+    
+    //---------------------TopContact component -------------
+    .top-contact-cont {
+        @media screen and (min-width: 1080px) {
+            padding: 5% 17%;
+        }
+        padding: 5% 7%;
+        h1 {
+            font-size: $h1-small;
+            font-family: $public-sans;
+            font-weight: $light;
+            color: $mirage-blue;
+            @media screen and (min-width: 1080px) {
+                padding-right: 25%;
+            }
+            @media screen and (max-width: 1080px) {
+                text-align: center;
+                font-size: 35px;
             }
         }
     }

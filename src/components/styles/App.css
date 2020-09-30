@@ -95,7 +95,7 @@ body {
   }
   .navbar .navbar-cont .nav-menu.active {
     background-color: #1b262f;
-    left: 0;
+    left: 2%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
@@ -657,4 +657,34 @@ body {
   color: #da6d97;
   font-weight: 300;
   font-family: "Public Sans", sans-serif;
+}
+
+.top-contact-cont {
+  padding: 5% 7%;
+}
+
+@media screen and (min-width: 1080px) {
+  .top-contact-cont {
+    padding: 5% 17%;
+  }
+}
+
+.top-contact-cont h1 {
+  font-size: 56px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  color: #1b262f;
+}
+
+@media screen and (min-width: 1080px) {
+  .top-contact-cont h1 {
+    padding-right: 25%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .top-contact-cont h1 {
+    text-align: center;
+    font-size: 35px;
+  }
 }
