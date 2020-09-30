@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import {useForm} from 'react-hook-form';
+import {Button, Checkbox, FormControlLabel, Grid} from '@material-ui/core';
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import {Button, Checkbox, FormControlLabel, Grid} from '@material-ui/core';
+
 AOS.init();
 
 function Form() {
@@ -26,7 +27,8 @@ function Form() {
 
     return (
         <Grid container direction='column' className='form-cont'>
-            <form >
+            <form data-aos='fade-left'
+                    data-aos-delay='200' >
                 <input
                     type="text"
                     name='name'
@@ -45,6 +47,7 @@ function Form() {
                     className={errors.name
                     ? "error input"
                     : " input"}
+                    
                   />
                 <input
                     type="email"
@@ -107,7 +110,8 @@ function Form() {
                     label="Stay up-to-date with company announcements and updates to our API"/>
            
             </form>
-            <Button type="submit" onClick={handleSubmit(onSubmit)} className='submit-btn' >
+            <Button type="submit" onClick={handleSubmit(onSubmit)} className='submit-btn' data-aos='fade-left'
+                    data-aos-delay='400'>
                     Submit </Button>
 
 

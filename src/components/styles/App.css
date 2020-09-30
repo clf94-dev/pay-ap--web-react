@@ -207,6 +207,7 @@ body {
   box-shadow: 15px 15px 18px 5px rgba(0, 0, 0, 0.1);
   height: 50px;
   width: 80%;
+  font-family: "Public Sans", sans-serif;
   border-radius: 25px;
   border: 1px solid #fbfcfe;
   padding-left: 20px;
@@ -740,6 +741,7 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  font-family: "Public Sans", sans-serif;
   border-bottom: 1px solid #1b262f;
   height: 50px;
   margin-bottom: 15px;
@@ -749,6 +751,7 @@ body {
   width: 100%;
   outline: none;
   border: none;
+  font-family: "Public Sans", sans-serif;
   border-bottom: 1px solid #1b262f;
   margin-bottom: 35px;
 }
@@ -761,6 +764,7 @@ body {
   border-radius: 25px;
   height: 50px;
   width: 200px;
+  font-family: "Public Sans", sans-serif;
 }
 
 .contact-cont .submit-btn:hover {
