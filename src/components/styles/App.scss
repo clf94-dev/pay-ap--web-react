@@ -279,6 +279,21 @@
                 }
             }
         }
+        .dark-btn {
+            height: 50px;
+            width: 150px;
+            border-radius: 25px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            border: 1px solid $link-water-white;
+            background-color: transparent;
+            color: $link-water-white;
+            &:hover {
+                transition: all 0.2s ease-out;
+                background-color: $link-water-white;
+                color: $mirage-blue;
+            }
+        }
     }
     
     //--------------------MiddleHome component -------------

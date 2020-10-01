@@ -316,6 +316,23 @@ body {
   transform: scale(1.05) !important;
 }
 
+.companies-cont .dark-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 1px solid #fbfcfe;
+  background-color: transparent;
+  color: #fbfcfe;
+}
+
+.companies-cont .dark-btn:hover {
+  transition: all 0.2s ease-out;
+  background-color: #fbfcfe;
+  color: #1b262f;
+}
+
 .middle-cont {
   padding: 5% 10%;
 }
