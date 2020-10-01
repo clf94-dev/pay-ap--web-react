@@ -662,7 +662,7 @@
     //---------------------PricingCard component -----------------
     .pricing-row {
         @media screen and (min-width: 755px) {
-            padding: 3% 10%;
+            padding: 2% 10%;
         }
         padding: 5% 10%;
         .pricing-col {
@@ -695,6 +695,7 @@
                 @media screen and (max-width: 1080px) {
                     padding: 0 7%;
                 }
+                padding-right: 25%;
                 font-size: 15px;
                 font-weight: $light;
                 line-height: 1.5rem;

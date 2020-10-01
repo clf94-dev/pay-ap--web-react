@@ -793,7 +793,7 @@ body {
 
 @media screen and (min-width: 755px) {
   .pricing-row {
-    padding: 3% 10%;
+    padding: 2% 10%;
   }
 }
 
@@ -834,6 +834,7 @@ body {
 }
 
 .pricing-row .pricing-col p {
+  padding-right: 25%;
   font-size: 15px;
   font-weight: 300;
   line-height: 1.5rem;
