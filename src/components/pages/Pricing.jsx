@@ -4,6 +4,8 @@ import PricingCard from '../PricingCard'
 import {PricingData} from '../PricingData'
 import TopPricing from '../TopPricing'
 
+import '../styles/App.css'
+
 function Pricing() {
     return (
         <div>

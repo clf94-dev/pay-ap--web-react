@@ -773,3 +773,33 @@ body {
   color: white;
   border: 1px solid #1b262f;
 }
+
+.top-pricing {
+  padding: 5% 7%;
+}
+
+@media screen and (min-width: 1080px) {
+  .top-pricing {
+    padding: 5% 10%;
+  }
+}
+
+.top-pricing h1 {
+  font-size: 56px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  color: #1b262f;
+}
+
+@media screen and (min-width: 1080px) {
+  .top-pricing h1 {
+    padding-right: 25%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .top-pricing h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
