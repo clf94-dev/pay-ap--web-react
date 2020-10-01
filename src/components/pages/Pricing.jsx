@@ -10,7 +10,7 @@ function Pricing() {
     return (
         <div>
             <TopPricing/>
-            <Grid container direction='row'>
+            <Grid container direction='row' className='pricing-row'>
                 {PricingData.map(data => {
                     return (<PricingCard
                         key={data.index}

@@ -294,23 +294,6 @@ body {
   }
 }
 
-.companies-cont .text-col .dark-btn {
-  height: 50px;
-  width: 150px;
-  border-radius: 25px;
-  margin-bottom: 30px;
-  cursor: pointer;
-  border: 1px solid #fbfcfe;
-  background-color: transparent;
-  color: #fbfcfe;
-}
-
-.companies-cont .text-col .dark-btn:hover {
-  transition: all 0.2s ease-out;
-  background-color: #fbfcfe;
-  color: #1b262f;
-}
-
 .companies-cont .comp-col {
   justify-content: center;
   align-items: center;
@@ -802,4 +785,117 @@ body {
     text-align: center;
     font-size: 35px;
   }
+}
+
+.pricing-row {
+  padding: 5% 10%;
+}
+
+@media screen and (min-width: 755px) {
+  .pricing-row {
+    padding: 3% 10%;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .pricing-row .pricing-col {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .pricing-row .pricing-col {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.pricing-row .pricing-col h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 756px) {
+  .pricing-row .pricing-col h1 {
+    font-size: 50px;
+  }
+}
+
+.pricing-row .pricing-col h3 {
+  font-size: 20px;
+  color: #ba4270;
+  font-weight: 300;
+  letter-spacing: -0.05rem;
+  font-family: "Public Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.pricing-row .pricing-col p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-family: "Public Sans", sans-serif;
+  color: #6c8294;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1080px) {
+  .pricing-row .pricing-col p {
+    padding: 0 7%;
+  }
+}
+
+.pricing-row .pricing-col hr {
+  color: lightgray;
+  width: 90%;
+  margin: 25px 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .pricing-row .pricing-col hr {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .pricing-row .pricing-col hr {
+    width: 100%;
+  }
+}
+
+.pricing-row .pricing-col .feature-row {
+  align-items: center;
+  text-align: center;
+}
+
+.pricing-row .pricing-col .feature-row h4 {
+  text-align: start;
+  font-size: 16px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.pricing-row .pricing-col .feature-row i {
+  color: #ba4270;
+}
+
+.pricing-row .pricing-col .dark-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border: 1px solid #1b262f;
+  background-color: transparent;
+  color: #1b262f;
+}
+
+.pricing-row .pricing-col .dark-btn:hover {
+  transition: all 0.2s ease-out;
+  background-color: #1b262f;
+  color: #fbfcfe;
 }
