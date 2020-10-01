@@ -520,7 +520,10 @@
             width: 100%;
         }
         .statistics-row {
-            padding: 5% 5%;
+            @media screen and (min-width: 1080px) {
+                padding: 5% 10%;
+            }
+            padding:5%;
             @media screen and (max-width: 755px) {
                 text-align: center;
             }

@@ -610,7 +610,13 @@ body {
 }
 
 .statistics-cont .statistics-row {
-  padding: 5% 5%;
+  padding: 5%;
+}
+
+@media screen and (min-width: 1080px) {
+  .statistics-cont .statistics-row {
+    padding: 5% 10%;
+  }
 }
 
 @media screen and (max-width: 755px) {
