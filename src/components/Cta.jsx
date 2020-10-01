@@ -9,10 +9,10 @@ function Cta() {
             </Grid>
             <Grid item md={6} xs={12} className='input-col'>
                 <Grid container direction='row'>
-                    <Grid item sm={6} xs={12}>
+                    <Grid item sm={8} xs={12}>
                         <input placeholder='Enter email address ...'type="text"/>
                     </Grid>
-                    <Grid item sm={6} xs={12}>
+                    <Grid item sm={4} xs={12}>
                         <button className='pink-btn'>Schedule a Demo</button>
                     </Grid>
                 </Grid>

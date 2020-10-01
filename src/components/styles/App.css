@@ -425,7 +425,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .cta-cont .input-col input {
-    width: 150% !important;
+    width: 120% !important;
   }
 }
 
