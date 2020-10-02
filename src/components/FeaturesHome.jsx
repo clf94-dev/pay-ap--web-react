@@ -9,7 +9,7 @@ function FeaturesHome() {
     return (
        <Grid container direction='row' className='features-cont'>
            {FeaturesHomeInfo.map((info) => {
-               return( <FeaturesCard key={info.index} index={info.index} title={info.title}text={info.text} alt={info.imgALT} /> )
+               return( <FeaturesCard key={info.index} delay={info.delay} index={info.index} title={info.title}text={info.text} alt={info.imgALT} /> )
         })}
        </Grid>
     )
