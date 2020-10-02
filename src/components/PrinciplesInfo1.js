@@ -32,16 +32,19 @@ export const PrinciplesInfo2 = [{
 export const StatisticsInfo = [{
         index: 0,
         title: 'Team Members',
-        text: '300+'
+        text: '300+',
+        delay: 200
     },
     {
         index: 1,
         title: 'Offices in the US',
-        text: 3
+        text: 3,
+        delay: 400
     },
     {
         index: 2,
         title: 'Transactions analyzed',
-        text: '10M+'
+        text: '10M+',
+        delay: 600
     }
 ]
