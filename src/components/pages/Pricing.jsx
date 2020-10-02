@@ -23,7 +23,8 @@ function Pricing() {
                         checkInvest={data.investTick}
                         checkAssets={data.assetsTick}
                         checkLiabil={data.liabilitTick}
-                        checkInc={data.incoTick}/>)
+                        checkInc={data.incoTick}
+                        delay={data.delay}/>)
                 })}
             </Grid>
         </div>

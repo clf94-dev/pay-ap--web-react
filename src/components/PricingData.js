@@ -11,7 +11,8 @@ export const PricingData = [
         investTick: false,
         assetsTick: false,
         liabilitTick: false,
-        incoTick: false
+        incoTick: false,
+        delay: 200
 
     }, {
         index: 1,
@@ -24,7 +25,8 @@ export const PricingData = [
         investTick: true,
         assetsTick: true,
         liabilitTick: false,
-        incoTick: false
+        incoTick: false,
+        delay: 400
 
     }, {
         index: 2,
@@ -37,7 +39,8 @@ export const PricingData = [
         investTick: true,
         assetsTick: true,
         liabilitTick: true,
-        incoTick: true
+        incoTick: true,
+        delay: 600
 
     }
 

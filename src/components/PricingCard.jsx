@@ -1,9 +1,15 @@
 import {Grid} from '@material-ui/core'
 import React from 'react'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+
+AOS.init();
+
+
 function PricingCard(props) {
     return (
-        <Grid item sm={4} xs={12} className='pricing-col'>
+        <Grid item sm={4} xs={12} className='pricing-col' data-aos='fade-up' data-aos-delay={props.delay}>
             <h3>{props.title}
             </h3>
             <p>{props.text}
