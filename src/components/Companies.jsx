@@ -8,6 +8,11 @@ import OracleD from './images/assets/shared/desktop/oracle.svg'
 import GoogleD from './images/assets/shared/desktop/google.svg'
 import NvidiaD from './images/assets/shared/desktop/nvidia.svg'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 function Companies() {
 
     const companiesD = [
@@ -20,7 +25,7 @@ function Companies() {
     ];
     return (
         <Grid container direction='row' className='companies-cont'>
-            <Grid item lg={6} md={12} className='text-col'>
+            <Grid item lg={6} md={12} className='text-col' data-aos='fade-right' >
                 <h2>Who we work with</h2>
                 <p>Today, millions of people around the world have successfully connected their
                     accounts to apps they love using our API. We provide developers with the tools
@@ -30,22 +35,22 @@ function Companies() {
             </Grid>
             <Grid item lg={6} md={12} className='comp-col'>
                 <Grid container direction='row' className='comp-row'>
-                    <Grid item sm={4} xs={6}>
+                    <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='100'>
                         <img src={TeslaD} className='company-logo' alt="Tesla"/>
                     </Grid>
-                    <Grid item sm={4} xs={6}>
+                    <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='200'>
                         <img src={MicrosoftD} className='company-logo' alt="Microsoft"/>
                     </Grid>
-                    <Grid item sm={4} xs={6}>
+                    <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='300'>
                         <img src={PackardD} className='company-logo' alt="Hewlett Packard"/>
                      </Grid>
-                    <Grid item sm={4} xs={6}>
+                    <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='400'>
                         <img src={OracleD} className='company-logo' alt="Oracle"/>
                     </Grid>
-                    <Grid item sm={4} xs={6}>
+                    <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='500'>
                         <img src={GoogleD} className='company-logo' alt="Google"/>
                     </Grid>
-                    <Grid item sm={4} xs={6}>
+                    <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='600'>
                         <img src={NvidiaD} className='company-logo' alt="NVidia"/>
                     </Grid>
                 </Grid>
