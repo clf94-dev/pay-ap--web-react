@@ -12,6 +12,11 @@ import NvidiaD from '../images/assets/shared/desktop/nvidia.svg'
 
 import '../styles/App.css'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 function Contact() {
 
    
@@ -23,24 +28,24 @@ function Contact() {
                     <Form/>
                 </Grid>
                 <Grid item lg={6} md={12} className='contact-comp-cont'>
-                    <h3>Join the thousands of innovators already building with us</h3>
+                    <h3 data-aos='fade-right' >Join the thousands of innovators already building with us</h3>
                     <Grid container direction='row' className='contact-comp-row'>
-                        <Grid item sm={4} xs={6}>
+                        <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='200'>
                             <img src={TeslaD}className='company-logo' alt="Tesla"/>
                         </Grid>
-                        <Grid item sm={4} xs={6}>
+                        <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='300'>
                             <img src={MicrosoftD}className='company-logo' alt="Microsoft"/>
                         </Grid>
-                        <Grid item sm={4} xs={6}>
+                        <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='400'>
                             <img src={PackardD}className='company-logo' alt="Hewlett Packard"/>
                         </Grid>
-                        <Grid item sm={4} xs={6}>
+                        <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='500'>
                             <img src={OracleD}className='company-logo' alt="Oracle"/>
                         </Grid>
-                        <Grid item sm={4} xs={6}>
+                        <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='600'>
                             <img src={GoogleD}className='company-logo' alt="Google"/>
                         </Grid>
-                        <Grid item sm={4} xs={6}>
+                        <Grid item sm={4} xs={6} data-aos='fade-up' data-aos-delay='700'>
                             <img src={NvidiaD}className='company-logo' alt="NVidia"/>
                         </Grid>
                     </Grid>
