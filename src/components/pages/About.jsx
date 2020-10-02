@@ -11,7 +11,9 @@ function About() {
                 return (<PrincipleCard
                     key={principle1.index}
                     title={principle1.title}
-                    text={principle1.text}/>)
+                    text={principle1.text}
+                    delayT={principle1.delayT}
+                    delayt={principle1.delayt}/>)
             })}
 <StatisticsAbout/>
 
@@ -19,7 +21,9 @@ function About() {
                 return (<PrincipleCard
                     key={principle1.index}
                     title={principle1.title}
-                    text={principle1.text}/>)
+                    text={principle1.text}
+                    delayT={principle1.delayT}
+                    delayt={principle1.delayt}/>)
             })}
         </div>
     )
